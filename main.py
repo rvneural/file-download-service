@@ -142,4 +142,4 @@ def download_file(url: str, quality: str = 'low'):
 
 
 if __name__ == '__main__':
-    uvicorn.run(app="main:app", host='', port=8084, log_level='info', workers=4)
+    uvicorn.run(app="main:app", host='', port=80, log_level='info', workers=4)
